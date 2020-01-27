@@ -5,7 +5,8 @@
 I used Arduino nano and rotary encoder for user interaction. I also implemented EEPROM operations such as save the current mode, brightness, led status. This lamp work with 3.3V lipo battery but it has 3.3v to 5v boost converter to supply enough power to Arduino. This lamp also has battery level indicator on top of the oled display there is no voltmeter, I just connected battery to arduino's analog pin to measure 3.3v battery voltage then divided with 5 so each "I" represents 3.3/5 voltage level. This means battery is full if you see "IIIII". The base and top is 3D printed. On top, I used transparent filament to make the RGB leds light visible.
 For leds I used Neopixel circle RGB leds circuit.
 * There is much more than just static light, there are animated fire and animated spiral light effects in it!
-* Code works multithread so you can change the settings while the animation is playing.
+* Code works multithread so you can change the settings while the animation is playing.,
+* You can place order for this at <a href="https://www.ege3dbaski.studio/">ege3dbaski.studio</a>
 ## Photos
 ![1](https://user-images.githubusercontent.com/30238276/73170478-8e8ad700-410f-11ea-8ce2-c9df5441f492.jpg)
 ![2](https://user-images.githubusercontent.com/30238276/73170479-8f236d80-410f-11ea-8471-b91758a5ef62.jpg)
